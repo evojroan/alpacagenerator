@@ -1,14 +1,52 @@
 .main {
-  display: flex;
-  border: 2px solid red;
-  width: 100%;
+  width: 45%;
+  background-color: #eeeeee;
+  padding: 2%;
 }
 
-.mainLeft,
-.mainLeftDown {
-  border: 2px solid black;
+h1 {
+  margin: 0% 0% 1% 0%;
+  font-family: 'Kanit-Black';
+}
+
+.mainContent {
+  display: flex;
+}
+
+.mainLeft {
+  height: 100%;
 }
 
 .mainRight {
-  border: 2px solid blue;
+  margin-left: 5%;
+}
+
+.mainLeftDown {
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutMe{
+  margin-top: 5%;
+  font-size: 8px;
+}
+
+
+.btleft {
+  background-color: #fefcfe;
+  width: 95px;
+  border: none;
+  height: 30px;
+}
+
+.btleft:hover {
+  cursor: pointer;
+}
+
+.btleft:active {
+  transform: scale(0.98);
+ 
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+
 }

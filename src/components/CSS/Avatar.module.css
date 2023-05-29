@@ -22,11 +22,12 @@ img {
   /* display: none; */
 }
 
+.ears,
 .neck,
 .hair,
-.ears,
+
 .leg {
-  z-index: 2
+  z-index: 2;
   /* display: none; */
 }
 
@@ -41,12 +42,11 @@ img {
   /* display: none; */
 }
 
-.avatarImg{
-  /* display:none */
-}
 
-.canvas{
-  height:200px;
-  width:200px;
+
+.canvas {
+  
+  height: 200px;
+  width: 200px;
   /* display:none */
 }

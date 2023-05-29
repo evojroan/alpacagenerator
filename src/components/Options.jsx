@@ -1,11 +1,21 @@
 //Options.jsx
-import { useState } from 'react';
+
 import styles from './CSS/Options.module.css';
 
-export default function Options({ title, allbts, clickme }) {
+export default function Options({ title, allbts, clickme, selectedCategory }) {
   const optionbts = allbts.map(x => {
-    return (
+    return x === selectedCategory ? (
       <button
+        className={styles.buttonSelected}
+        key={x}
+        onClick={() => {
+          clickme(x);
+        }}>
+        {x}
+      </button>
+    ) : (
+      <button
+        className={styles.button}
         key={x}
         onClick={() => {
           clickme(x);
@@ -17,8 +27,8 @@ export default function Options({ title, allbts, clickme }) {
 
   return (
     <div className={styles.options}>
-      <h4>{title}</h4>
-      {optionbts}
+      <h5>{title}</h5>
+      <div className={styles.buttonZone}>{optionbts}</div>
     </div>
   );
 }

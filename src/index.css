@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Kanit-Black';
+  src: local('Kanit-Black'), url('./fonts/Kanit-Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Kanit-Italic';
+  src: local('Kanit-Italic'), url('./fonts/Kanit-Italic.ttf') format('truetype');
+}

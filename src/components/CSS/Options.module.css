@@ -1,3 +1,43 @@
 .options {
-  background-color: #dbdbdb;
+  margin-bottom: 2%;
+}
+
+h5 {
+  font-family: 'Kanit-Italic';
+  margin: 0;
+}
+
+.buttonZone {
+  margin: 1%;
+}
+
+.button {
+  background-color: transparent;
+  padding: 3% 7% 3% 7%;
+  border-radius: 50px;
+  margin: 1%;
+  border: 2px solid #bed1ee;
+  color: #bed1ee;
+}
+
+.buttonSelected {
+  background-color: transparent;
+  padding: 3% 7% 3% 7%;
+  border-radius: 50px;
+  margin: 1%;
+
+  color: #ffffff;
+  background-color: #23509c;
+  background-color: #23509c;
+  border: 2px solid #23509c;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button:focus {
+  color: #ffffff;
+  background-color: #23509c;
+  border: 2px solid #23509c;
 }
