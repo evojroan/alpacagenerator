@@ -9,27 +9,40 @@ h5 {
 
 .buttonZone {
   margin: 1%;
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .button {
+  max-width: 100px;
+  max-height: 40px;
   background-color: transparent;
-  padding: 3% 7% 3% 7%;
+  padding: 1% 7% 1% 7%;
   border-radius: 50px;
-  margin: 1%;
+  margin: 0.5%;
   border: 2px solid #bed1ee;
   color: #bed1ee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .buttonSelected {
+  max-width: 100px;
+  max-height: 40px;
   background-color: transparent;
-  padding: 3% 7% 3% 7%;
+  padding: 1% 7% 1% 7%;
   border-radius: 50px;
-  margin: 1%;
+  margin: 0.5%;
 
-  color: #ffffff;
+  color: #bed1ee;
   background-color: #23509c;
   background-color: #23509c;
   border: 2px solid #23509c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .button:hover {

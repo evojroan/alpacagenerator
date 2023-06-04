@@ -7,7 +7,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShuffle } from '@fortawesome/free-solid-svg-icons';
 import { faFileArrowDown } from '@fortawesome/free-solid-svg-icons';
 
-
 export default function Main() {
   const allItems = {
     Hair: ['Default', 'Curls', 'Short', 'Bang', 'Elegant', 'Quiff'],
@@ -98,52 +97,61 @@ export default function Main() {
     anchor.click();
   }
 
-  
-
-  
-
   return (
     <div className={styles.main}>
-      <h1> Alpaca Generator</h1>
-      <div className={styles.mainContent}>
-        <div className={styles.mainLeft}>
-          <Avatar appearance={alpaca} />
-          <div className={styles.mainLeftDown}>
-            <button
-              onClick={randomnize}
-              className={styles.btleft}>
-              {' '}
-              <FontAwesomeIcon icon={faShuffle} /> Random
-            </button>
-            <button
-              onClick={handleDownload}
-              className={styles.btleft}>
-              <FontAwesomeIcon icon={faFileArrowDown} /> Download
-            </button>
+      <div className={styles.mainLayout}>
+        <h1> Alpaca Generator</h1>
+        <div className={styles.mainContent}>
+          <div className={styles.mainLeft}>
+            <Avatar appearance={alpaca} />
+            <div className={styles.mainLeftDown}>
+              <button
+                onClick={randomnize}
+                className={styles.btleft}>
+                {' '}
+                <FontAwesomeIcon icon={faShuffle} /> Random
+              </button>
+              <button
+                onClick={handleDownload}
+                className={styles.btleft}>
+                <FontAwesomeIcon icon={faFileArrowDown} /> Download
+              </button>
+            </div>
+
+            <div className={styles.aboutMe}>
+              <h6>About Me</h6>
+              <p>Roan, front end engineer</p>
+              <p>
+                <a
+                  href='https://github.com/evojroan'
+                  rel='noreferrer'
+                  target='_blank'>
+                  GitHub
+                </a>
+              </p>
+              <p>
+                <a
+                  href='https://medium.com/@roan6903'
+                  rel='noreferrer'
+                  target='_blank'>
+                  Medium
+                </a>
+              </p>
+            </div>
           </div>
-       
- <div className={styles.aboutMe}>
-  <h6>About Me</h6>
-  <p>Roan, front end engineer</p>
-  <p><a href="https://github.com/evojroan" rel="noreferrer" target="_blank">GitHub</a></p>
-  <p><a href="https://medium.com/@roan6903" rel="noreferrer" target="_blank">Medium</a></p>
-
- </div>
-
-          
-        </div>
-        <div className={styles.mainRight}>
-          <Options
-            title={'Accessorize the Alpaca!'}
-            allbts={Object.keys(allItemsNoNose)}
-            clickme={pageHandler}
-            selectedCategory={selectedCategory}
-          />
-          <Options
-            title={'Style'}
-            allbts={acspage}
-            clickme={acsHandler}
-          />
+          <div className={styles.mainRight}>
+            <Options
+              title={'Accessorize the Alpaca!'}
+              allbts={Object.keys(allItemsNoNose)}
+              clickme={pageHandler}
+              selectedCategory={selectedCategory}
+            />
+            <Options
+              title={'Style'}
+              allbts={acspage}
+              clickme={acsHandler}
+            />
+          </div>
         </div>
       </div>
     </div>

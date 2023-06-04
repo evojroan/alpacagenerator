@@ -2,23 +2,6 @@ import styles from './CSS/Avatar.module.css';
 import { useEffect } from 'react';
 
 export default function Avatar({ appearance }) {
-  //<img> draw Alpaca
-  function drawAlpaca(data) {
-    return Object.entries(data).map(([key, value], index) =>
-      value === 'None' || value === '' ? (
-        ''
-      ) : (
-        <img
-          key={index}
-          className={styles[key.toLocaleLowerCase()]}
-          src={require(`images/${key.toLocaleLowerCase()}/${value.toLocaleLowerCase()}.png`)}
-          alt={key}
-          id={key.toLocaleLowerCase() + value.toLocaleLowerCase()}
-        />
-      )
-    );
-  }
-
   useEffect(() => {
     const canvas = document.getElementById('canvas');
     const context = canvas.getContext('2d');
