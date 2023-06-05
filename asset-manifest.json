@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/alpacagenerator/static/css/main.75ef1e59.css",
-    "main.js": "/alpacagenerator/static/js/main.fc8c8c20.js",
+    "main.css": "/alpacagenerator/static/css/main.98f8cfc9.css",
+    "main.js": "/alpacagenerator/static/js/main.eb446e1e.js",
     "static/js/40.e26a306b.chunk.js": "/alpacagenerator/static/js/40.e26a306b.chunk.js",
     "static/js/7221.8724bf31.chunk.js": "/alpacagenerator/static/js/7221.8724bf31.chunk.js",
     "static/js/9696.242ee251.chunk.js": "/alpacagenerator/static/js/9696.242ee251.chunk.js",
@@ -60,12 +60,12 @@
     "static/media/Kanit-Black.ttf": "/alpacagenerator/static/media/Kanit-Black.d207b263009ca8cf3725.ttf",
     "static/media/Kanit-Italic.ttf": "/alpacagenerator/static/media/Kanit-Italic.674155cb82e0fffe05bb.ttf",
     "index.html": "/alpacagenerator/index.html",
-    "main.75ef1e59.css.map": "/alpacagenerator/static/css/main.75ef1e59.css.map",
-    "main.fc8c8c20.js.map": "/alpacagenerator/static/js/main.fc8c8c20.js.map",
+    "main.98f8cfc9.css.map": "/alpacagenerator/static/css/main.98f8cfc9.css.map",
+    "main.eb446e1e.js.map": "/alpacagenerator/static/js/main.eb446e1e.js.map",
     "787.b64d6b77.chunk.js.map": "/alpacagenerator/static/js/787.b64d6b77.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.75ef1e59.css",
-    "static/js/main.fc8c8c20.js"
+    "static/css/main.98f8cfc9.css",
+    "static/js/main.eb446e1e.js"
   ]
 }
